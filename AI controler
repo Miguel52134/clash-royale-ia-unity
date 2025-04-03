@@ -1,0 +1,10 @@
+using UnityEngine;
+
+public class AIController : MonoBehaviour {
+    public enum Difficulty { Easy, Medium, Hard, Expert, Legendary }
+    public Difficulty currentDifficulty = Difficulty.Medium;
+    
+    void Update() {
+        // Lógica da IA aqui
+    }
+}
