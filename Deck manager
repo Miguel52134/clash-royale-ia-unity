@@ -1,0 +1,15 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class DeckManager : MonoBehaviour {
+    public List<CardData> allCards = new List<CardData>();
+
+    void Start() {
+        // Exemplo de cartas (adicione as 20 manualmente)
+        allCards.Add(new CardData {
+            cardName = "Sparky",
+            elixirCost = 6,
+            description = "Dispara um raio devastador."
+        });
+    }
+}
